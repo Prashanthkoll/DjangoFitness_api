@@ -62,7 +62,7 @@ fitness_booking/
 
 1. **Clone the Repository**
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/Prashanthkoll/DjangoFitness_api.git>
    cd fitness_booking
    ```
 
