@@ -1,0 +1,30 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+
+<div class='table' >
+    <table rules="none" border="1">
+    <tr>
+        <th>Class Id</th>
+        <th>Class Name</th>
+        <th>Instructor</th>
+        <th>Date/Time</th>
+        <th>Total Slots</th>
+        <th>Available Slots</th>
+    </tr>
+    {% for class in data %}
+    <tr>
+        <td>{{ class.id }}</td>
+        <td>{{ class.name }}</td>
+        <td>{{ class.instructor }}</td>
+        <td>{{ class.datetime }}</td>
+        <td>{{ class.total_slots }}</td>
+        <td>{{ class.available_slots }}</td>
+    </tr>
+    {% endfor %}
+</table>
+</div>
+
+
+{% endblock content %}

@@ -1,0 +1,33 @@
+{% extends 'main.html' %}
+{% block content %}
+
+<div class="form">
+    <h2>Book a Class</h2>
+    <form method="post">
+        {% csrf_token %}
+
+        <label for="class_id">Select Class:
+            <select name="class_id" required>
+            <option value="" disabled selected>-- Choose a class --</option>
+            {% for c in classes %}
+                <option value="{{ c.id }}">
+                   {{c.id}} {{ c.name }} with {{ c.instructor }} on {{ c.datetime|date:"Y-m-d H:i" }} ({{ c.available_slots }} slots left)
+                </option>
+            {% endfor %}
+        </select>
+        </label>
+        
+
+        <label>Name: <input type="text" name="client_name" required></label>
+        <label>Email: <input type="email" name="client_email" required></label>
+        <button type="submit">Book Now</button>
+    </form>
+
+    {% if message %}
+        <p class="success">{{ message }}</p>
+    {% elif error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+</div>
+
+{% endblock content %}

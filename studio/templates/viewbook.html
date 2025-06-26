@@ -1,0 +1,26 @@
+{% extends 'main.html' %}
+{% block content %}
+
+<div class="form">
+    <h2>View Your Bookings</h2>
+<form method="get">
+    <label>Email: <input type="email" name="email" required></label>
+    <button type="submit">Search</button>
+</form>
+
+{% if bookings %}
+    <h3>Results:</h3>
+    <ul>
+        {% for booking in bookings %}
+            <li>{{ booking.client_name }} booked {{ booking.fitness_class.name }} on {{ booking.booked_at }}</li>
+        {% endfor %}
+    </ul>
+{% elif message %}
+    <p>{{ message }}</p>
+{% endif %}
+</div>
+
+
+{% endblock content %}
+
+

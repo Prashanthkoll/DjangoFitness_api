@@ -1,0 +1,156 @@
+nav {
+    background: linear-gradient(45deg, blue, orange, blue);
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+    .logo {
+        text-align: center;
+        width: 30%;
+    }
+
+    .links {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 12px;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px rgb(44, 43, 43);
+
+        a {
+            text-decoration: none;
+            color: rgb(220, 223, 200);
+        }
+
+        a:hover {
+            color: rgb(39, 233, 52);
+        }
+
+        a:active {
+            color: crimson;
+        }
+    }
+    .links:hover{
+        box-shadow: 5px 5px 5px rgb(240, 233, 233);
+    }
+}
+
+
+nav:hover {
+    background: linear-gradient(45deg, rgb(220, 180, 17), orange, blue);
+}
+
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.table table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #eef;
+}
+
+.form {
+    background-color: #fff;
+    padding: 5px 30px;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="number"],select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+.form .success {
+    color: green;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form .error {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+.footer {
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    background-color: bisque;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}

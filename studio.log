@@ -1,0 +1,25 @@
+[2025-06-26 12:36:37,104] INFO studio Web booking created: prashu (prashanthkolla2003@gmail.com) for ZUMBA
+[2025-06-26 12:41:32,547] INFO studio Retrieved 6 upcoming classes
+[2025-06-26 12:43:15,232] INFO studio Retrieved 6 upcoming classes
+[2025-06-26 12:43:37,961] INFO studio Retrieved 6 upcoming classes
+[2025-06-26 12:51:39,544] INFO studio Retrieved 6 upcoming classes
+[2025-06-26 12:55:48,114] INFO studio Retrieved 6 upcoming classes
+[2025-06-26 12:58:42,447] INFO studio Booking created: Prashanth (prashanth@example.com) for YOGA
+[2025-06-26 13:00:39,953] WARNING studio Invalid booking data: {'non_field_errors': [ErrorDetail(string='You have already booked this class.', code='invalid')]}
+[2025-06-26 13:01:23,381] WARNING studio Invalid booking data: {'non_field_errors': [ErrorDetail(string='You have already booked this class.', code='invalid')]}
+[2025-06-26 13:09:32,075] INFO studio Web booking created: prashu (prashanthkolla2003@gmail.com) for HIIT
+[2025-06-26 13:12:32,510] WARNING studio Invalid booking data: {'client_name': [ErrorDetail(string='Name must contain only letters, spaces, and dots', code='invalid')]}
+[2025-06-26 13:12:53,316] WARNING studio Invalid booking data: {'non_field_errors': [ErrorDetail(string='You have already booked this class.', code='invalid')]}
+[2025-06-26 13:13:32,609] INFO studio Booking created: Prashanth (prashanth@example.com) for ZUMBA
+[2025-06-26 13:15:03,530] INFO studio Retrieved 2 bookings for prashanth@example.com
+[2025-06-26 13:16:08,742] INFO studio Retrieved 2 bookings for prashanth@example.com
+[2025-06-26 13:48:58,121] INFO studio Web booking created: prashu (prashanthkolla2003@gmail.com) for YOGA
+[2025-06-26 13:53:35,440] INFO studio Web booking created: prashuu (prashanthkolla200@gmail.com) for YOGA
+[2025-06-26 14:48:19,580] INFO studio Retrieved 8 upcoming classes
+[2025-06-26 14:50:10,510] INFO studio Retrieved 0 bookings for prashanthkolla2003@example.com
+[2025-06-26 14:50:36,971] INFO studio Retrieved 5 bookings for prashanthkolla2003@gmail.com
+[2025-06-26 14:59:29,912] INFO studio Booking created: Prashanth (prashanth@example.com) for YOGA
+[2025-06-26 15:17:54,860] INFO studio Web booking created: mohan (solankimohanrao2@gmail.com) for YOGA
+[2025-06-26 15:21:14,613] INFO studio Booking created: Prashanth (prashanth@example.com) for YOGA
+[2025-06-26 15:21:56,312] INFO studio Retrieved 8 upcoming classes
+[2025-06-26 15:22:56,225] INFO studio Retrieved 5 bookings for prashanthkolla2003@gmail.com
